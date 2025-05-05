@@ -275,7 +275,7 @@
         app:layout_constraintStart_toEndOf="@+id/Number_7" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/outputDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="36dp"
@@ -287,6 +287,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
+        android:id="@+id/inputDisplay"
         android:layout_width="338dp"
         android:layout_height="96dp"
         android:layout_marginBottom="32dp"
