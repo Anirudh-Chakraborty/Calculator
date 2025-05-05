@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="tint_blue">#005DB2</color>
+    <color name="Text_Blue_For_Tint_Blue">#339DFF</color>
+    <color name="bright_blue">#1991FF</color>
+    <color name="Text_Blue_For_Bright_Blue_Button">#B2DAFF</color>
+    <color name="Black_button">#303136</color>
+    <color name="Text_blue_For_black_Button">#29A8FF</color>
+    <color name="Grey_Button">#616161</color>
+    <color name="Text_Grey_For_Grey_Button">#A5A5A5</color>
 </resources>
