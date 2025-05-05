@@ -63,7 +63,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Equals_To"
-        android:layout_width="68dp"
+        android:layout_width="84dp"
         android:layout_height="68dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="36dp"
@@ -118,7 +118,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Plus"
-        android:layout_width="68dp"
+        android:layout_width="84dp"
         android:layout_height="68dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
@@ -173,7 +173,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Minus"
-        android:layout_width="68dp"
+        android:layout_width="84dp"
         android:layout_height="68dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
@@ -209,7 +209,7 @@
         android:backgroundTint="@color/Grey_Button"
         android:textColor="@color/Text_Grey_For_Grey_Button"
         android:text="AC"
-        android:textSize="28dp"
+        android:textSize="18dp"
         app:cornerRadius="16dp"
         app:layout_constraintBottom_toTopOf="@+id/Number_7"
         app:layout_constraintStart_toStartOf="parent" />
@@ -230,7 +230,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/multiply"
-        android:layout_width="68dp"
+        android:layout_width="84dp"
         android:layout_height="68dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
@@ -246,7 +246,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Divide"
-        android:layout_width="68dp"
+        android:layout_width="84dp"
         android:layout_height="68dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
@@ -273,6 +273,32 @@
         app:cornerRadius="16dp"
         app:layout_constraintBottom_toTopOf="@+id/Number_5"
         app:layout_constraintStart_toEndOf="@+id/Number_7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="32dp"
+        android:text="Result Text"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/clear"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="32dp"
+        android:text="History Text"
+        android:textColor="@color/Grey_Button"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
